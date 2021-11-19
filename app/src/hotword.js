@@ -20,6 +20,9 @@ function getHotwordDetectorInstance(onHotword) {
   // add hotword
   bumblebee.addHotword('hey_google');
   bumblebee.addHotword('ok_google');
+  // add Wake for test
+  bumblebee.addHotword('wake');
+  bumblebee.addHotword('g_a_u_d_c')
 
   // set sensitivity (from 0.0 to 1.0)
   bumblebee.setSensitivity(1);
